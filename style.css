@@ -5,11 +5,26 @@
     font-family: 'Ruthie', cursive;
 
 }
+.bodyaccuiel{
+    background-image: url("./assets/ab416354b581d3abe283fc3e2c7f2cb3.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Ruthie', cursive;
+}
+/* .acc{
+    background-color: black;
+} */
+
 .form{
-    background-color: rgba(0, 0, 0, 0.389);
+    background: rgb(0,0,0);
+    background: linear-gradient(130deg, rgba(0,0,0,1) 36%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 82%, rgba(0,0,0,1) 99%);
     
     
 }
+/* .hero{
+    background-color: #deb88742;
+    opacity: 0.5;
+} */
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Ruthie&display=swap');
 
@@ -25,41 +40,49 @@
 }
 
 .front{
-    /* position: absolute; */
-    width: 100%;
-    height: 100%;
-   border-radius: 50px;
-}
-
-.front{
     /* display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around; */
     background: rgb(0,0,0);
     background: linear-gradient(130deg, rgba(0,0,0,1) 36%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 82%, rgba(0,0,0,1) 99%);
-    /* background-size: 250% 100%; */
+    width: 100%;
+    height: 100%;
+   border-radius: 50px;
 }  
 #img{
     width: 50%;
  border-radius: 50%;
  
 }
+.logo{
+    width: 100%;
+    height: 100px;
+}
+.acc{
+    background-color: rgba(0, 0, 0, 0.466);
+    
+}
 .nom1{
     background-color: rgba(0, 0, 0, 0.258);
     
     width:200px;
-    height:90px;
+    height:100px;
     
 }
 .rus{
     background-color: rgba(255, 255, 255, 0.258);
     
 }
-/* .image{
-    margin-top: 650px;
-    
-} */
+.image{
+    width: 100px;
+    height: 200px;
+} 
+.imag{
+    width: 150px;
+    height: 300px;
+}
+
 /* .hero{
     margin-right:
 }
@@ -74,23 +97,53 @@
     color: black;
     font-family: 'Ruthie', cursive;
 }
-/* h1{
-    font-weight: normal;
-    font-size: 3rem;
-    text-shadow: 4px 6px 3px #ec904aae;
-    font-family: 'Ruthie', cursive; 
-} */
-/* .front{
-    background-color: black;
+.div1{
+    visibility: hidden;
+}
+.div2{
+    visibility: hidden;
+}
+.diapo{
+    position: relative;
+    overflow: hidden;
+}
+#nav-droite, #nav-gauche{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 3em;
+}
 
-} */
-/* .icone{
-    width: 20px;
-} */
-/* p{
- font-size: 15px;
- font-weight: normal;
- font-size: 2rem;
- font-family: 'Dancing Script', cursive;
- 
-} */
+#nav-droite{
+    right: 20px;
+}
+#nav-gauche{
+    left: 20px;
+}
+.resultat{
+    visibility: hidden;
+
+}
+.attaque{
+    text-decoration: none;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+.hero{
+  
+        animation-duration: 3s;
+        animation-name: slidein;
+}
+      
+      @keyframes slidein {
+        from {
+          margin-left: 50%;
+          width: 100%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 50%;
+        }
+      }
