@@ -1,35 +1,39 @@
-.body{
-    background-image: url("./assets/Screenshot11-1920x1080-1af35abc46b2c459c90a3a8039ea90b4.avif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Ruthie', cursive;
-
-}
-.bodyaccuiel{
-    background-image: url("./assets/ab416354b581d3abe283fc3e2c7f2cb3.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Ruthie', cursive;
-}
-/* .acc{
-    background-color: black;
-} */
-
-.form{
-    background: rgb(0,0,0);
-    background: linear-gradient(130deg, rgba(0,0,0,1) 36%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 82%, rgba(0,0,0,1) 99%);
-    
-    
-}
-/* .hero{
-    background-color: #deb88742;
-    opacity: 0.5;
-} */
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Ruthie&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+body{
+    background-color: rgba(235, 84, 84, 0.491);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.fight{
+    background-image: url("./assets/bg-fight.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Ruthie', cursive;
+    background-attachment: fixed;
+}
+
+
+.form{
+    /* background: rgb(0,0,0); */
+    background: linear-gradient(150deg, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 66%, rgba(0,0,0,1) 85%);
+    
+    
+}
+
 .carte{
-    /* position: relative; */
+   
     width: 200px;
     height: 300px;
     border: solid  5px black;
@@ -39,11 +43,9 @@
    
 }
 
+
 .front{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; */
+   
     background: rgb(0,0,0);
     background: linear-gradient(130deg, rgba(0,0,0,1) 36%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 82%, rgba(0,0,0,1) 99%);
     width: 100%;
@@ -60,7 +62,7 @@
     height: 100px;
 }
 .acc{
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(210, 201, 201, 0.466);
     
 }
 .nom1{
@@ -83,19 +85,10 @@
     height: 300px;
 }
 
-/* .hero{
-    margin-right:
-}
-.monster{
-    margin-right: 
-} */
-/* #img:hover{
-    transform: scale(2,2);
-} */
 .button{
     background-color: burlywood;
     color: black;
-    font-family: 'Ruthie', cursive;
+ 
 }
 .div1{
     visibility: hidden;
@@ -130,20 +123,3 @@
     border: none;
     background-color: rgba(240, 248, 255, 0);
 }
-.hero{
-  
-        animation-duration: 3s;
-        animation-name: slidein;
-}
-      
-      @keyframes slidein {
-        from {
-          margin-left: 50%;
-          width: 100%;
-        }
-      
-        to {
-          margin-left: 0%;
-          width: 50%;
-        }
-      }

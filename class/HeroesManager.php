@@ -9,19 +9,7 @@ class HeroesManager
     }
     public function add(Hero $hero): void
     {
-        // $findUser = $this->db->prepare('SELECT * FROM  heroes WHERE name = :name');
-        // $findUser->execute([
-        //     ':name' => $hero->getName()
-        // ]);
-        // $existingUser = $findUser->fetch();
-        // if ($existingUser) 
-        // {
-        //     $hero->setName($existingUser['name']);
-        //     $$hero->setId($existingUser['id']);
-        //     $hero->setHealth_point($existingUser['health_point']) ;
-        //     $hero->setTypes($existingUser['types']);
-        // } else 
-        // {
+
             $request = $this->db->prepare("INSERT INTO heroes (name,health_point, types, icone) VALUES (:name, :health_point, :types, :icone)");
             $request->execute([
                 //  'id'=>$hero->getId(),

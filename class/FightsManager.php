@@ -26,7 +26,7 @@ class FightsManager
         $domage2=$hero->hit($monster); 
         $tableaux[]= $hero->getName()." a frappé ".$monster->getNomMonster()."de ".$domage2. " points de dégâts";
          if($monster->getPhMonster()<=0){
-            $tableaux[]= $monster->getNomMonster() ." est mort ".$hero->getName()." est gagné le combat";
+            $tableaux[]= $monster->getNomMonster() ." est mort ".$hero->getName()."  est gagné le combat";
         }
     }
         
