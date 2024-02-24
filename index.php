@@ -43,7 +43,7 @@ $heroes = $new->findAllAlive();
 
                     <h1 class="text-center text-white mt-3">Créer votre compte:</h1>
 
-                    <form action="./page-back/carte.php" id="form1" method="post">
+                    <form class="px-2" action="./page-back/carte.php" id="form1" method="post">
                         <label class="text-white-50" for="">saisir votre nom d'hero:</label>
                         <input class="w-100 bg-transparent text-white border shadow " type="text" name="name" value="">
 
@@ -56,21 +56,21 @@ $heroes = $new->findAllAlive();
 
 
                         <label class="text-white-50" for="">choisir votre icone:</label>
-                        <div class=" ps-5">
+                        <div class="mx-auto text-center">
                             <ul class="list-unstyled">
                                 <div class="row">
                                     <li class="col-4">
                                         <input class="me-1" type="radio" name="icone" value="./assets/combat3.gif" id="firstRadio" checked>
-                                        <img name="icone" class="image " id="img" src="./assets/combat3.gif" alt="logo">
+                                        <img name="icone" class="image " src="./assets/combat3.gif" alt="logo">
 
                                     </li>
                                     <li class="col-4">
-                                        <input class="me-1 " type="radio" name="icone" value="./assets/comba4.gif" id="secondRadio">
-                                        <img name="icone" class="image" id="img" src="./assets/comba4.gif" alt="logo">
+                                        <input class="me-1 " type="radio" name="icone" value="./assets/comba4.gif" id="secondRadio" checked>
+                                        <img name="icone" class="image" src="./assets/comba4.gif" alt="logo">
                                     </li>
                                     <li class="col-4">
-                                        <input class="me-1 " type="radio" name="icone" value="./assets/combat6.gif" id="thirdRadio">
-                                        <img name="icone" class="image" id="img" src="./assets/combat6.gif" alt="logo">
+                                        <input class="me-1 " type="radio" name="icone" value="./assets/combat6.gif" id="thirdRadio" checked>
+                                        <img name="icone" class="image" src="./assets/combat6.gif" alt="logo">
                                     </li>
                                 </div>
                                 <div class="row">
@@ -80,11 +80,11 @@ $heroes = $new->findAllAlive();
 
                                     </li>
                                     <li class="col-4">
-                                        <input class="me-1 " type="radio" name="icone" value="./assets/comba9.webp" id="secondRadio">
+                                        <input class="me-1 " type="radio" name="icone" value="./assets/comba9.webp" id="secondRadio" checked>
                                         <img name="icone" class="image" src="./assets/comba9.webp" alt="">
                                     </li>
                                     <li class="col-4">
-                                        <input class="me-1 " type="radio" name="icone" value="./assets/combat2.gif" id="thirdRadio">
+                                        <input class="me-1 " type="radio" name="icone" value="./assets/combat2.gif" id="thirdRadio" checked>
                                         <img name="icone" class="image " src="./assets/combat2.gif" alt="">
                                     </li>
                                 </div>
